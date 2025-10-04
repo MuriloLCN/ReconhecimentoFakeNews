@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.6)  16 SEP 2025 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.6)  4 OCT 2025 15:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -109,8 +109,8 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks20
 \inpenc@posthook=\toks21
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-2.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+0.
 
 (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -123,20 +123,20 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -233,77 +233,75 @@ cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 34.
+(Font)              <12> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 34.
+(Font)              <8> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 34.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
-4.
- (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 3
-4.
- (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omspcr.fd
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
-
-[1
+(Font)              <6> on input line 22.
+ [1
 
 {C:/Users/murilo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/mur
 ilo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-<imagens/fig1.jpg, id=12, 254.3904pt x 232.2276pt>
-File: imagens/fig1.jpg Graphic file (type jpg)
-<use imagens/fig1.jpg>
-Package pdftex.def Info: imagens/fig1.jpg  used on input line 114.
-(pdftex.def)             Requested size: 213.39568pt x 194.81471pt.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-15.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
+2.
 
 (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-<imagens/fig2.jpg, id=13, 205.7286pt x 234.1548pt>
-File: imagens/fig2.jpg Graphic file (type jpg)
-<use imagens/fig2.jpg>
-Package pdftex.def Info: imagens/fig2.jpg  used on input line 121.
-(pdftex.def)             Requested size: 128.0387pt x 145.73541pt.
-<imagens/table.jpg, id=14, 365.2044pt x 217.2918pt>
-File: imagens/table.jpg Graphic file (type jpg)
-<use imagens/table.jpg>
-Package pdftex.def Info: imagens/table.jpg  used on input line 139.
-(pdftex.def)             Requested size: 298.75264pt x 177.75932pt.
+<imagens/preproc/tamanho_textos_char.png, id=10, 739.3221pt x 343.2825pt>
+File: imagens/preproc/tamanho_textos_char.png Graphic file (type png)
+<use imagens/preproc/tamanho_textos_char.png>
+Package pdftex.def Info: imagens/preproc/tamanho_textos_char.png  used on input
+ line 89.
+(pdftex.def)             Requested size: 256.07741pt x 118.89877pt.
+<imagens/preproc/tamanho_textos_palavras.png, id=12, 732.8178pt x 343.2825pt>
+File: imagens/preproc/tamanho_textos_palavras.png Graphic file (type png)
+<use imagens/preproc/tamanho_textos_palavras.png>
+Package pdftex.def Info: imagens/preproc/tamanho_textos_palavras.png  used on i
+nput line 97.
+(pdftex.def)             Requested size: 256.07741pt x 119.95685pt.
+<imagens/preproc/tamanho_titulos_chars.png, id=13, 739.3221pt x 343.2825pt>
+File: imagens/preproc/tamanho_titulos_chars.png Graphic file (type png)
+<use imagens/preproc/tamanho_titulos_chars.png>
+Package pdftex.def Info: imagens/preproc/tamanho_titulos_chars.png  used on inp
+ut line 105.
+(pdftex.def)             Requested size: 256.07741pt x 118.89877pt.
 
-[2 <./imagens/fig1.jpg>] (main.bbl [3 <./imagens/fig2.jpg> <./imagens/table.jpg
->]) [4] (main.aux)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 6032) has occurred while \output is active []
+
+ [2 <./imagens/preproc/tamanho_textos_char.png> <./imagens/preproc/tamanho_text
+os_palavras.png>] (main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [3 <./imagens/preproc/tamanho_titulos_chars.png>] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3210 strings out of 474485
- 54029 string characters out of 5743263
- 1934542 words of memory out of 5000000
- 25445 multiletter control sequences out of 15000+600000
- 575462 words of font info for 66 fonts, out of 8000000 for 9000
+ 3157 strings out of 474485
+ 53636 string characters out of 5743263
+ 1935542 words of memory out of 5000000
+ 25399 multiletter control sequences out of 15000+600000
+ 576069 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,79p,280b,367s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,9n,79p,431b,280s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/courier/ucrr8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/urw/helvetic/uhvb8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts
-/type1/urw/times/utmb8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/font
-s/type1/urw/times/utmbi8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fo
-nts/type1/urw/times/utmr8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 223182 bytes).
+/cmr8.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
+ic/uhvb8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
+mes/utmb8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
+imes/utmbi8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/urw
+/times/utmr8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on main.pdf (3 pages, 136841 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

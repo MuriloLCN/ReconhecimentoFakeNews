@@ -10,24 +10,12 @@
      
 \sloppy
 
-\title{Instructions for Authors of SBC Conferences\\ Papers and Abstracts}
+\title{Classificação de \textit{fake news} utilizando Aprendizado de Máquina}
 
-\author{Luciana P. Nedel\inst{1}, Rafael H. Bordini\inst{2}, Flávio Rech
-  Wagner\inst{1}, Jomi F. Hübner\inst{3} }
+\author{Murilo Luis C. Neves\inst{1}, Vitor Padovani\inst{1}, Fernando Silva Grande\inst{1}}
 
 
-\address{Instituto de Informática -- Universidade Federal do Rio Grande do Sul
-  (UFRGS)\\
-  Caixa Postal 15.064 -- 91.501-970 -- Porto Alegre -- RS -- Brazil
-\nextinstitute
-  Department of Computer Science -- University of Durham\\
-  Durham, U.K.
-\nextinstitute
-  Departamento de Sistemas e Computação\\
-  Universidade Regional de Blumenal (FURB) -- Blumenau, SC -- Brazil
-  \email{\{nedel,flavio\}@inf.ufrgs.br, R.Bordini@durham.ac.uk,
-  jomi@inf.furb.br}
-}
+\address{Departamento de Informática -- Universidade Estadual de Maringá}
 
 \begin{document} 
 
@@ -51,112 +39,93 @@
   página do artigo.
 \end{resumo}
 
+\section{Introdução}
 
-\section{General Information}
+Falar um pouco sobre fake news e aprendizado de máquina...
 
-All full papers and posters (short papers) submitted to some SBC conference,
-including any supporting documents, should be written in English or in
-Portuguese. The format paper should be A4 with single column, 3.5 cm for upper
-margin, 2.5 cm for bottom margin and 3.0 cm for lateral margins, without
-headers or footers. The main font must be Times, 12 point nominal size, with 6
-points of space before each paragraph. Page numbers must be suppressed.
+\section{Fundamentação Teórica}
 
-Full papers must respect the page limits defined by the conference.
-Conferences that publish just abstracts ask for \textbf{one}-page texts.
+\subsubsection{Random Forest}
 
-\section{First Page} \label{sec:firstpage}
+\subsubsection{Logistic Regression}
 
-The first page must display the paper title, the name and address of the
-authors, the abstract in English and ``resumo'' in Portuguese (``resumos'' are
-required only for papers written in Portuguese). The title must be centered
-over the whole page, in 16 point boldface font and with 12 points of space
-before itself. Author names must be centered in 12 point font, bold, all of
-them disposed in the same line, separated by commas and with 12 points of
-space after the title. Addresses must be centered in 12 point font, also with
-12 points of space after the authors' names. E-mail addresses should be
-written using font Courier New, 10 point nominal size, with 6 points of space
-before and 6 points of space after.
+\subsubsection{Gradient Boosting}
 
-The abstract and ``resumo'' (if is the case) must be in 12 point Times font,
-indented 0.8cm on both sides. The word \textbf{Abstract} and \textbf{Resumo},
-should be written in boldface and must precede the text.
+\subsubsection{Redes Neurais}
 
-\section{CD-ROMs and Printed Proceedings}
+\section{Materiais e métodos}
 
-In some conferences, the papers are published on CD-ROM while only the
-abstract is published in the printed Proceedings. In this case, authors are
-invited to prepare two final versions of the paper. One, complete, to be
-published on the CD and the other, containing only the first page, with
-abstract and ``resumo'' (for papers in Portuguese).
+	Nesta seção, são descritos os materiais utilizados para o trabalho (seção \ref{sec:materiais}) e os métodos como foram trabalhados (seção \ref{sec:metodos}).
+	
+\subsection{Materiais} \label{sec:materiais}
 
-\section{Sections and Paragraphs}
+Os materiais utilizados para esse trabalho incluem o \textit{dataset} WELFake, e, como ferramentas de codificação principais, as bibliotecas \textit{Scikit-Learn} e \textit{Torch}.
 
-Section titles must be in boldface, 13pt, flush left. There should be an extra
-12 pt of space before each title. Section numbering is optional. The first
-paragraph of each section should not be indented, while the first lines of
-subsequent paragraphs should be indented by 1.27 cm.
+\subsubsection{Base de dados}
 
-\subsection{Subsections}
+O \textit{dataset} utilizado é o WELFake, devido ao grande volume de dados presentes no mesmo e um relativo balanceamento entre as classes real e falso. Ele possui 72134 entradas, onde 35028 são reais e 37106 são falsas. No entanto, como é mostrado na seção \ref{sec:preproc}, há duplicatas, o que torna o número de entradas válidas no \textit{dataset} menor.
 
-The subsection titles must be in boldface, 12pt, flush left.
+O \textit{dataset} possui como colunas o identificador de cada texto, título, texto e \textit{label}, onde a \textit{label} 0 indica notícia falsa e 1 indica notícia real. Um ponto importante de ser notado é que, como o \textit{dataset} não possui \textit{features} pré-extraídas (apenas possui o texto em si), elas foram posteriormente extraídas pelos discentes (seção \ref{sec:preproc}).
 
-\section{Figures and Captions}\label{sec:figs}
+Uma análise inicial indica a seguinte proporção de duplicatas:
 
-
-Figure and table captions should be centered if less than one line
-(Figure~\ref{fig:exampleFig1}), otherwise justified and indented by 0.8cm on
-both margins, as shown in Figure~\ref{fig:exampleFig2}. The caption font must
-be Helvetica, 10 point, boldface, with 6 points of space before and after each
-caption.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.5\textwidth]{imagens/fig1.jpg}
-\caption{A typical figure}
-\label{fig:exampleFig1}
-\end{figure}
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.3\textwidth]{imagens/fig2.jpg}
-\caption{This figure is an example of a figure caption taking more than one
-  line and justified considering margins mentioned in Section~\ref{sec:figs}.}
-\label{fig:exampleFig2}
-\end{figure}
-
-In tables, try to avoid the use of colored or shaded backgrounds, and avoid
-thick, doubled, or unnecessary framing lines. When reporting empirical data,
-do not use more decimal digits than warranted by their precision and
-reproducibility. Table caption must be placed before the table (see Table 1)
-and the font used must also be Helvetica, 10 point, boldface, with 6 points of
-space before and after each caption.
-
-\begin{table}[ht]
-\centering
-\caption{Variables to be considered on the evaluation of interaction
-  techniques}
-\label{tab:exTable1}
-\includegraphics[width=.7\textwidth]{imagens/table.jpg}
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|l|c|}
+		\hline
+		Duplicatas em títulos & 9786 \\
+		Duplicatas em textos & 9415 \\
+		Duplicatas em linhas inteiras & 8456 \\
+		\hline
+	\end{tabular}
+	\label{tab:duplicatas}
+	\caption{Quantidade de duplicatas encontradas na base de dados}
 \end{table}
 
-\section{Images}
+Para este trabalho, considerou-se que apenas duplicatas tanto em título quanto em textos deveriam ser removidas. Alguns gráficos que mostram a distribuição dos tamanhos dos textos e títulos seguem.
 
-All images and illustrations should be in black-and-white, or gray tones,
-excepting for the papers that will be electronically available (on CD-ROMs,
-internet, etc.). The image resolution on paper should be about 600 dpi for
-black-and-white images, and 150-300 dpi for grayscale images.  Do not include
-images with excessive resolution, as they may take hours to print, without any
-visible difference in the result. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{imagens/preproc/tamanho_textos_char.png}
+	\caption{Distribuição dos tamanhos dos textos (em caracteres)}
+	\label{fig:preproc_tam_txt_char}
+\end{figure}
 
-\section{References}
 
-Bibliographic references must be unambiguous and uniform.  We recommend giving
-the author names references in brackets, e.g. \cite{knuth:84},
-\cite{boulic:91}, and \cite{smith:99}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{imagens/preproc/tamanho_textos_palavras.png}
+	\caption{Distribuição dos tamanhos dos textos (em palavras)}
+	\label{fig:preproc_tam_txt_pal}
+\end{figure}
 
-The references must be listed using 12 point font size, with 6 points of space
-before each reference. The first line of each reference should not be
-indented, while the subsequent should be indented by 0.5 cm.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{imagens/preproc/tamanho_titulos_chars.png}
+	\caption{Distribuição dos tamanhos dos títulos (em caracteres)}
+	\label{fig:preproc_tam_tit_char}
+\end{figure}
+
+\subsubsection{Scikit-Learn}
+
+\subsubsection{Torch}
+
+\subsection{Métodos} \label{sec:metodos}
+
+\subsubsection{Pré-processamento} \label{sec:preproc}
+
+\subsubsection{Método 1: Técnicas clássicas}
+
+\subsubsection{Método 2: Redes neurais}
+
+c. Metodologia contendo uma descrição das características da base de dados selecionada,
+os métodos aplicados, bem como da métrica de avaliação utilizada para verificar a
+qualidade dos métodos aplicados;
+
+\section{Resultados}
+
+\section{Conclusões}
 
 \bibliographystyle{sbc}
 \bibliography{sbc-template}
