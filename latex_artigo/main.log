@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.6)  4 OCT 2025 15:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.6)  4 OCT 2025 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -104,13 +104,34 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.st
+y
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-no
+metadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks20
 \inpenc@posthook=\toks21
 )
+(C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count199
+\float@exts=\toks22
+\float@box=\box52
+\@float@everytoks=\toks23
+\@floatcapt=\box53
+)
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-0.
+3.
 
 (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -118,25 +139,25 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
 ftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count199
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count266
+\l__pdf_internal_box=\box54
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -176,74 +197,40 @@ LaTeX Font Info:    ... okay on input line 20.
 (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count266
+\scratchcounter=\count267
 \scratchdimen=\dimen160
-\scratchbox=\box53
-\nofMPsegments=\count267
-\nofMParguments=\count268
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count269
+\scratchbox=\box55
+\nofMPsegments=\count268
+\nofMParguments=\count269
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count270
 \MPscratchDim=\dimen161
-\MPnumerator=\count270
-\makeMPintoPDFobject=\count271
-\everyMPtoPDFconversion=\toks23
+\MPnumerator=\count271
+\makeMPintoPDFobject=\count272
+\everyMPtoPDFconversion=\toks25
 )
 (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
 base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
-sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
-ekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-))
-(C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
-y
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
-y
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))
-(C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
-s.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
+(Font)              <6> on input line 25.
  [1
 
 {C:/Users/murilo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/mur
 ilo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
-2.
+5.
 
 (C:\Users\murilo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
@@ -252,19 +239,19 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 File: imagens/preproc/tamanho_textos_char.png Graphic file (type png)
 <use imagens/preproc/tamanho_textos_char.png>
 Package pdftex.def Info: imagens/preproc/tamanho_textos_char.png  used on input
- line 89.
+ line 92.
 (pdftex.def)             Requested size: 256.07741pt x 118.89877pt.
 <imagens/preproc/tamanho_textos_palavras.png, id=12, 732.8178pt x 343.2825pt>
 File: imagens/preproc/tamanho_textos_palavras.png Graphic file (type png)
 <use imagens/preproc/tamanho_textos_palavras.png>
 Package pdftex.def Info: imagens/preproc/tamanho_textos_palavras.png  used on i
-nput line 97.
+nput line 100.
 (pdftex.def)             Requested size: 256.07741pt x 119.95685pt.
 <imagens/preproc/tamanho_titulos_chars.png, id=13, 739.3221pt x 343.2825pt>
 File: imagens/preproc/tamanho_titulos_chars.png Graphic file (type png)
 <use imagens/preproc/tamanho_titulos_chars.png>
 Package pdftex.def Info: imagens/preproc/tamanho_titulos_chars.png  used on inp
-ut line 105.
+ut line 108.
 (pdftex.def)             Requested size: 256.07741pt x 118.89877pt.
 
 
@@ -274,34 +261,59 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 6032) has occurred while \output is active []
 
  [2 <./imagens/preproc/tamanho_textos_char.png> <./imagens/preproc/tamanho_text
-os_palavras.png>] (main.bbl
+os_palavras.png>]
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 155.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./imagens/preproc/tamanho_titulos_chars.png>] [4]
+<imagens/rede_neural.png, id=28, 454.69875pt x 384.83775pt>
+File: imagens/rede_neural.png Graphic file (type png)
+<use imagens/rede_neural.png>
+Package pdftex.def Info: imagens/rede_neural.png  used on input line 194.
+(pdftex.def)             Requested size: 256.07741pt x 216.73494pt.
+ [5 <./imagens/rede_neural.png>]
+<imagens/resultados_metodo_2.png, id=33, 1076.1003pt x 714.7503pt>
+File: imagens/resultados_metodo_2.png Graphic file (type png)
+<use imagens/resultados_metodo_2.png>
+Package pdftex.def Info: imagens/resultados_metodo_2.png  used on input line 22
+6.
+(pdftex.def)             Requested size: 573.18488pt x 380.71353pt.
+
+[6
+
+ <./imagens/resultados_metodo_2.png>] (main.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [3 <./imagens/preproc/tamanho_titulos_chars.png>] (main.aux)
+) [7
+
+] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3157 strings out of 474485
- 53636 string characters out of 5743263
- 1935542 words of memory out of 5000000
- 25399 multiletter control sequences out of 15000+600000
- 576069 words of font info for 65 fonts, out of 8000000 for 9000
+ 2818 strings out of 474485
+ 47371 string characters out of 5743263
+ 1941542 words of memory out of 5000000
+ 25072 multiletter control sequences out of 15000+600000
+ 577828 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,9n,79p,431b,280s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,515b,284s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmr8.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
-ic/uhvb8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
-imes/utmbi8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/urw
-/times/utmr8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/ur
-w/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 136841 bytes).
+ic/uhvb8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/he
+lvetic/uhvbo8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/u
+rw/times/utmb8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type1/
+urw/times/utmbi8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/times/utmr8a.pfb><C:/Users/murilo/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on main.pdf (7 pages, 306185 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
